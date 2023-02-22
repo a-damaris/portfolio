@@ -88,8 +88,7 @@
 }
 .paragraph-header{
     text-align: center;
-    text-align: justify;
-    color: blue;
+    margin-left: 5%;
     
 
 }
@@ -152,13 +151,44 @@
    color: #fff;
 }
 
-
-
-
 .more{
 text-decoration: underline;
 text-transform: uppercase;
 text-align: center;
 font-weight: bolder;
 
+}
+.section-3-heading1{
+    text-transform: none;
+    letter-spacing: normal;
+    font-size:98px;
+    text-align: left;
+    margin-left:50px ;
+}
+    .section-3-heading2{
+        font-weight: bolder;
+        display: block;
+    }
+
+.para{
+    font-size: large;
+    font-weight: 200px;
+
+}
+.read-more1{
+    font-family: Roboto, sans-serif;
+    padding: 10px 30px;
+    border: 1px solid #000000;
+    color:  #ffff;
+    letter-spacing: 2px;
+    box-shadow: 3px 4px 2px rgb(0 0 0 / 20%);
+    background-color:black;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    margin-top: 100px;
+
+}
+.read-more1:hover{
+    background-color: #000;
+   color: #fff;
 }
